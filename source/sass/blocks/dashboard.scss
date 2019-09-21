@@ -1,0 +1,49 @@
+.dashboard
+{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.dashboard__title
+{
+     @include title-text;
+     width: 60%;
+     padding-bottom: 10px;
+}
+
+.dashboard__description
+{
+    @include description-text;
+    padding-bottom: 60px;
+}
+
+.dashboard__list
+{
+    list-style-type: none;
+    list-style-image: url("../img/list_type.svg");
+}
+
+.dashboard__item 
+{
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+.dashboard__item span
+{
+   font-family: $font-family-bold;
+}
+
+.dashboard__item a
+{
+     @include big-link;
+}
+
+
+.dashboard__item p
+{
+     @include description-text;
+     padding-top: 20px;
+}

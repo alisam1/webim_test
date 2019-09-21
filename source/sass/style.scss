@@ -1,0 +1,32 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/mobile-menu.scss";
+@import "blocks/container.scss";
+@import "blocks/main-header.scss";
+@import "blocks/installation.scss";
+@import "blocks/easy.scss";
+@import "blocks/html.scss";
+@import "blocks/dashboard.scss";
+@import "blocks/waiting.scss";
+@import "blocks/online.scss";
+@import "blocks/main-footer.scss";
+
+
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/ubuntu/ubuntu.ttf") format('ttf'),
+         url("../fonts/ubuntu/ubuntu.woff") format('woff'),
+         url("../fonts/ubuntu/ubuntu.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("../fonts/ubuntu/ubuntubold.ttf") format('ttf'),
+  url("../fonts/ubuntu/ubuntubold.woff") format('woff'),
+  url("../fonts/ubuntu/ubuntubold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

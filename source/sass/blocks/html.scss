@@ -1,0 +1,42 @@
+.html
+{
+    background-color: #eff4f4;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.html__title
+{
+     @include title-text;
+     padding-bottom: 30px;
+}
+
+.html__list
+{
+    list-style-type: none;
+    list-style-image: url("../img/list_type.svg");
+}
+
+.html__item 
+{
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+.html__item span
+{
+   font-family: $font-family-bold;
+}
+
+.html__item a
+{
+     @include big-link;
+}
+
+
+.html__item p
+{
+     @include description-text;
+     padding-top: 20px;
+}

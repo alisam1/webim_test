@@ -1,0 +1,99 @@
+.online
+{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+
+.online__description
+{
+    width: 60%;
+    @include description-text;
+    padding-bottom: 60px;
+}
+
+.online__block
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.online__card
+{
+    width: 32%;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.online__card a
+{
+    @include little-link;
+    padding-left: 25px;
+}
+
+.online__card--chat a
+{
+    padding-left: 15px;
+}
+
+
+.icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.online__card--social .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -10px -268px;
+}
+
+.online__card--forma .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -292px -130px;
+}
+
+.online__card--chat .icon {
+  width: 60px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -210px -198px;
+}
+
+.online__card--messengers .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png")  -292px -190px;
+}
+
+.online__card--ya .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -150px -198px;
+}
+
+.online__card--mail .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -292px -70px;
+}
+
+.online__card--bots .icon {
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -292px -10px;
+}
+

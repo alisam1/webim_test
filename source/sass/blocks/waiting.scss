@@ -1,0 +1,137 @@
+.waiting
+{
+    background-color: #eff4f4;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.waiting__title
+{
+     @include title-text;
+     padding-bottom: 10px;
+}
+
+.waiting__description
+{
+    @include description-text;
+    padding-bottom: 60px;
+}
+
+.waiting__block
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.waiting__card
+{
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+}
+
+
+.waiting__text
+{
+    @include description-text;
+    color: $title-color;
+    margin-left: 30px;
+}
+
+.waiting__text span 
+{
+     @include title-text;
+     font-size: 24px;
+     text-transform: none;
+     padding-right: 5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.waiting__card--one .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -198px -10px;
+}
+
+.waiting__card--two .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -198px -104px;
+}
+
+.waiting__card--three .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -104px -104px;
+}
+
+.waiting__card--four .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png")  -10px -10px;
+}
+
+.waiting__card--five .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -104px -10px;
+}
+
+.waiting__card--six .icon {
+  width: 74px; 
+  height: 74px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -10px -104px;
+}
+
+.waiting__button
+{
+    width: 256px;
+    height: 48px;
+    border-radius: 22px;
+    margin-top: 30px;
+    &--free
+    {
+       background-color: rgb(44, 211, 184);
+       border: none;
+    }
+    &--pay
+    {
+     background-color: #393e6b;
+     border: none;
+     margin-left: 15px;
+    }
+}
+
+.waiting__button--free a
+{
+    font-family: $font-family-bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.waiting__button--pay a
+{
+    font-family: $font-family-bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

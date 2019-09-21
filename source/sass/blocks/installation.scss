@@ -1,0 +1,69 @@
+.installation 
+{
+    background-color: #eff4f4;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.installation__title
+{
+    font-family: $font-family-bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: $title-color;
+    text-transform: uppercase;
+}
+
+.installation__text
+{
+      width: 60%;
+      padding-bottom: 55px;
+}
+
+
+.installation__description
+{
+    @include description-text;
+
+}
+
+.installation__button
+{
+    width: 256px;
+    height: 48px;
+    border-radius: 22px;
+    &--free
+    {
+       background-color: rgb(44, 211, 184);
+       border: none;
+    }
+    &--pay
+    {
+     background-color: inherit;
+     border: 1px solid #393e6b;
+     margin-left: 15px;
+    }
+}
+
+.installation__button--free a
+{
+    font-family: $font-family-bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.installation__button--pay a
+{
+    font-family: $font-family-bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: $title-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

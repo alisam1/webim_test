@@ -1,0 +1,86 @@
+.easy
+{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 105px;
+    
+}
+
+.easy__title
+{
+    @include title-text;
+}
+
+.easy__description
+{
+    @include description-text;
+}
+
+.easy__group
+{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.easy__numb
+{
+    font-family: $font-family-bold;
+    font-size: 150px;
+    color: rgba(57, 62, 107, 0.149);
+    position: relative;
+}
+
+.easy__about
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -20px;
+}
+
+ .easy__block--one .easy__about
+ {
+     left: 380px;
+ }
+
+
+ .easy__block--two .easy__about
+ {
+     left: 700px;
+ }
+
+
+.easy__link
+{
+    padding-top: 40px;
+}
+
+.easy__link a
+{
+    @include little-link;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.easy__block--one .icon {
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -10px -198px;
+}
+
+.easy__block--two .icon {
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+  background: url("../img/css_sprites.png") -80px -198px;
+}
