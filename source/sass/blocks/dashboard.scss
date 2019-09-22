@@ -47,3 +47,70 @@
      @include description-text;
      padding-top: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+.dashboard__title {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.dashboard__description
+{
+    padding-bottom: 30px;
+}
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .dashboard
+       {
+           padding-top: 40px;
+            padding-bottom: 40px;
+       }
+
+      .dashboard__title
+{
+      width: 95%;
+      font-size: 24px;
+      line-height: 25px;
+      margin-bottom: 0px;
+}
+
+
+.dashboard__description {
+    font-size: 13px;
+    line-height: 18px;
+    color: #74757b;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.dashboard__list
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashboard__item {
+    padding-bottom: 15px;
+    padding-left: 5px;
+    width: 95%;
+}
+
+.dashboard__item a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #0da088;
+}
+
+.dashboard__item p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+ 
+}

@@ -3,3 +3,18 @@
     height: 280px;
     background-image: url("../img/footer.svg");
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+.footer-desktop {
+    height: 140px;
+    background-image: url("../img/footer.svg");
+    background-size: cover;
+}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+ 
+}

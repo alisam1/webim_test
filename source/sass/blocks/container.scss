@@ -12,8 +12,12 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  
+   .container__all {
+    width: 90%;
+    margin: 0 auto;
 }
-
+}
 @media screen and (min-width: 0px) and (max-width: 767px) {
 
   .container
@@ -21,4 +25,9 @@
     max-width: 100%;
     margin: 0 auto;
   }
+
+     .container__all {
+    width: 90%;
+    margin: 0 auto;
+}
 }

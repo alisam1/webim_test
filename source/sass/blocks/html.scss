@@ -40,3 +40,46 @@
      @include description-text;
      padding-top: 20px;
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .html
+       {
+           padding-top: 40px;
+            padding-bottom: 30px;
+       }
+
+      .html__title
+{
+      width: 70%;
+      font-size: 26px;
+      line-height: 25px;
+      margin-bottom: 0px;
+}
+
+.html__list
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.html__item {
+    padding-bottom: 15px;
+    padding-left: 5px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.html__item a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #0da088;
+}
+
+.html__item p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+ 
+}

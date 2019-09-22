@@ -27,12 +27,16 @@
 }
 
 
+.easy__block
+{
+    position: relative;
+}
+
 .easy__numb
 {
     font-family: $font-family-bold;
     font-size: 150px;
     color: rgba(57, 62, 107, 0.149);
-    position: relative;
 }
 
 .easy__about
@@ -40,19 +44,17 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
 }
 
- .easy__block--one .easy__about
- {
-     left: 380px;
- }
+  .easy__block--one .easy__about {
+    left: 50px;
+}
 
-
- .easy__block--two .easy__about
- {
-     left: 700px;
- }
+.easy__block--two .easy__about {
+    width: 250px;
+    left: 50px;
+}
 
 
 .easy__link
@@ -83,4 +85,93 @@
   height: 50px;
   cursor: pointer;
   background: url("../img/css_sprites.png") -80px -198px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .easy__about
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+}
+
+    .easy__block--one .easy__about {
+    left: 50px;
+}
+
+.easy__block--two .easy__about {
+    width: 250px;
+    left: 50px;
+}
+
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    .easy
+       {
+           padding-top: 40px;
+            padding-bottom: 80px;
+       }
+
+      .easy__title
+{
+      width: 90%;
+      font-size: 26px;
+      line-height: 25px;
+      margin-bottom: 25px;
+}
+
+.easy__text
+{
+    width: 90%;
+}
+
+.easy__description {
+    font-size: 13px;
+    line-height: 20px;
+    color: #74757b;
+    width: 85%;
+}
+
+.easy__group
+{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.easy__block {
+    position: relative;
+    width: 50%;
+}
+
+.easy__numb
+{
+    font-size: 70px;
+}
+
+.easy__block--one .easy__about {
+    left: 20px;
+    bottom: -20px;
+}
+
+.easy__block--two .easy__about {
+    width: 100px;
+    left: 25px;
+    bottom: -40px;
+}
+
+.easy__link {
+    padding-top: 0px;
+}
+
+.easy__link a {
+    font-size: 14px;
+    line-height: 18px;
+}
+ 
 }

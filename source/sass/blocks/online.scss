@@ -97,3 +97,46 @@
   background: url("../img/css_sprites.png") -292px -10px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+.online__card {
+    width: 50%;
+}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+  .online
+  {
+    padding-top: 40px;
+  }
+
+  .online__description {
+
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    color: #74757b;
+    padding-bottom: 30px;
+
+}
+
+.online__block
+{
+  flex-direction: column;
+}
+
+.online__card {
+
+    width: 90%;
+}
+
+.online__card a
+{
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+}

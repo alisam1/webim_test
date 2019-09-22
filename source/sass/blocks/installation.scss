@@ -67,3 +67,59 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+       .installation
+       {
+           padding-top: 20px;
+            padding-bottom: 20px;
+       }
+
+     .installation__title
+{
+      width: 90%;
+      font-size: 26px;
+      line-height: 44px;
+      margin-bottom: 0px;
+}
+
+ .installation__text
+{
+      width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.installation__description {
+    font-size: 13px;
+    line-height: 18px;
+    color: #74757b;
+    width: 95%;
+}
+
+
+.installation__group
+{
+    width: 90%;
+}
+
+.installation__button {
+    width: 100%;
+    height: 48px;
+    border-radius: 22px;
+    margin-bottom: 15px;
+
+}
+
+.installation__button--pay
+{
+    margin-left: 0;
+}
+
+}
