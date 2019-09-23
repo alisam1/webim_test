@@ -182,7 +182,8 @@
     font-size: 13px;
     line-height: 18px;
     color: $title-color;
-    margin-left: 20px;
+    margin-left: 60px;
+    position: relative;
 }
 
 .waiting__text span 
@@ -194,34 +195,69 @@
      padding-right: 5px;
 }
 
-.waiting__card--one .icon {
-  width: 150px; 
+.waiting__card .icon
+{
+  display: none;
 }
 
-.waiting__card--two .icon {
-
-    width: 90px;
+.waiting__card 
+{
+  height: auto;
+  position: relative;
+  margin-bottom: 50px;
 }
 
-.waiting__card--three .icon {
-
-    width: 85px;
-
+.waiting__card--one
+{
+  margin-bottom: 40px;
 }
 
-.waiting__card--four .icon {
-
-    width: 90px;
+.waiting__card--one::before {
+  content: "";
+  background-image: url("../img/icons/step_01.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
 }
 
-.waiting__card--five .icon {
-
-    width: 90px;
+.waiting__card--two::before {
+  content: "";
+  background-image: url("../img/icons/step_02.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
 }
 
-.waiting__card--six .icon {
+.waiting__card--three::before {
+  content: "";
+  background-image: url("../img/icons/step_03.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
 
-    width: 90px;
+.waiting__card--four::before {
+  content: "";
+  background-image: url("../img/icons/step_04.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.waiting__card--five::before {
+  content: "";
+  background-image: url("../img/icons/step_05.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.waiting__card--six::before {
+  content: "";
+  background-image: url("../img/icons/step_06.svg");
+  width: 50px;
+  height: 50px;
+  position: absolute;
 }
 
 .waiting__button
