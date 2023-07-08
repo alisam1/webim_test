@@ -31,7 +31,7 @@
         "run-sequence": "^2.2.1",
         "source-map": "^0.7.3",
         "strip-bom": "^4.0.0",
-        "stylelint": "^9.2.1",
+        "stylelint": "^15.10.1",
         "travis-deploy-once": "^5.0.11"
     },
     "scripts": {
